@@ -1,0 +1,225 @@
+#header-backgroung{
+  background-image: url("../images/backgrounds/landing.jpg");
+  height: 500px;
+  width: 100%;
+}
+#image-logo{
+  display: block;
+  margin-right: auto;
+    margin-left: auto;
+    padding-top:90px;
+
+}
+#header-backgroung p{color:white;
+text-align: center;
+font-size: 25px;
+font-family: arial;
+font-style: bold;}
+/*#happy-hour{
+  background-color: grey;
+  color: black;
+  font-size: 30px;
+  height:80px;
+  padding-left:0px;
+
+
+}
+#party-time{
+  background-image:url("../images/backgrounds/landing.jpg");
+  color: white;
+  font-size: 30px;
+  height:80px;
+  overflow: hide;
+  padding-left:0px;
+
+}*/
+#breakfast{height:160px;
+  margin: 0px;
+
+  background-image: url("../images/foodtop/breakfast.jpg");
+  /*text-align: center;*/
+  color: white;
+  /*vertical-align: middle;*/
+  padding: 80px;
+
+
+}
+#lunch{height:160px;
+  margin: 0px;
+
+  background-image: url("../images/foodtop/lunch.jpg");
+  /*text-align: center;*/
+  color: white;
+  /*vertical-align: middle;*/
+  padding: 80px;
+}
+#dinner{height:160px;
+  margin: 0px;
+
+  background-image: url("../images/foodtop/dinner.jpg");
+  /*text-align: center;*/
+  color: white;
+  /*vertical-align: middle;*/
+  padding: 80px;
+  overflow: hidden;
+}
+#button{background-color: grey;}
+/*#fastfood-image{background-image: url("images/fastfood6.jpg");
+height:350px;
+width: 50%;
+display: block;}*/
+#backgroun-image{background-image: url("../images/backgrounds/foodsBg.jpg");
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#fastfood-row{
+  margin :50px;
+  background-color: white;
+}
+.menu-images{padding:50px;}
+.menu-text p{text-align: center;
+padding:auto;
+padding-top: 20px;
+}
+.customer-images{padding: 15px;}
+.align-images-center{padding-left:120px; }
+
+.image-line{
+  position: absolute;
+  top: 2190px;
+  left: 850px;
+  transform: scale(1,12);
+  color: rgba(0,0,0,0.3);
+
+}
+
+.background-image-footer{background-image: url("../images/backgrounds/subscribe.jpg");}
+
+.email-title{color:white;
+      text-align: center;}
+.section-center{margin-left: 40%;}
+
+.backgroung-img {
+  background: #F15A29;
+}
+.footer-menu {
+  padding: 20px;
+
+}
+.Tocenter{margin-left: 47%;}
+.nav-btn {
+  display: block;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: left;
+  color: white;
+}
+.breakfast{background-image: url("../images/foodtop/breakfast.jpg");
+              height:170px;
+              text-align: center;
+              color: white;
+              padding-top: 30px;
+              font-size: 25px;
+              }
+.breakfast:hover{
+  opacity: 0.5;
+}
+.lunch{background-image: url("../images/foodtop/lunch.jpg");
+        height:170px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 25px;}
+.lunch:hover{
+            opacity: 0.5;
+}
+.dinner{background-image: url("../images/foodtop/dinner.jpg");
+        height: 170px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 25px;}
+.dinner:hover{
+  opacity:0.5;
+}
+.happy-color{
+  background-color: white;
+}
+.happy-hour{
+  background-color:grey;
+  height: 85px;
+  width:100%;
+  text-align: center;
+  color:white;
+  font-size: 23px;
+  font-style: bold;
+  padding-top: 35px;
+  color: black;
+}
+.happy-hour:hover{color:white;}
+.party-time{
+  background-color:#F15A29;
+  height: 85px;
+  width: 100%;
+  text-align: center;
+  color:white;
+  font-size: 23px;
+  font-style: bold;
+  padding-top: 35px;
+  color: black;
+
+}
+.party-time:hover{color:white;}
+#hour-party-float{
+  padding: 0px;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color:#F15A29;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
